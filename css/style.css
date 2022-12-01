@@ -1,0 +1,133 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;color: inherit;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+body {
+    background: black;
+    color: white;
+}
+
+.wrapper {
+    max-width: 1250px;
+    margin: 0 auto;
+    height: 1200px;
+    background: url('../images/bgc.png') 50% / cover no-repeat;
+    border: 1px solid black;
+}
+
+.container {
+    max-width: 1210px;
+    margin: 0 auto;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 85px;
+
+}
+
+.menu__link {
+    display: flex;
+    justify-content: space-between;
+    min-width: 400px;
+    
+    
+}
+
+.menu__info {
+    display: flex;
+    align-items: center;
+    min-width: 350px;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    font-size: 20px;
+    font-family: arial;
+    
+}
+
+.logo span {
+    color: red;
+    font-family: serif bold;
+}
+
+.work__time {
+    color: gray;
+}
+
+button {
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+
+    background-color: red;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
+
+.links:hover {
+    color: red;
+}
+
+
+main {
+    align-items: center;
+    margin-top: 200px;
+}
+
+.main__items {
+    margin-top: 60px;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.main__items img {
+    margin-left: 30px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.footer__nav {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__nav > li {
+    color: gray;
+    font-size: 12px;
+}
+
+.location__addres {
+    color: gray;
+    font-size: 12px;
+}
